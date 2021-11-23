@@ -1,0 +1,78 @@
+{
+  "typography": {
+    "typeScale": {
+      "default": {
+        "fontSize": {
+          "min": {
+            "value": "16",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "16",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "lineHeight": {
+          "min": {
+            "value": "24",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "24",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "fontWeight": {
+          "value": "400",
+          "attributes": {
+            "category": "string"
+          }
+        }
+      },
+      "small": {
+        "fontSize": {
+          "min": {
+            "value": "12",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "14",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "lineHeight": {
+          "min": {
+            "value": "16",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "20",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "fontWeight": {
+          "value": "400",
+          "attributes": {
+            "category": "string"
+          }
+        }
+      }
+    }
+  }
+}

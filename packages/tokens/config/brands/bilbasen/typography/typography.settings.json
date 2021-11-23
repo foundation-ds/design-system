@@ -1,0 +1,20 @@
+{
+  "typography": {
+    "fontSrc": {
+      "value": "'./foundations/assets/bilbasen'"
+    },
+    "defaultStack": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    },
+    "regular": {
+      "fontName": {
+        "value": "'GTWalsheimProRegular'"
+      }
+    },
+    "medium": {
+      "fontName": {
+        "value": "'GTWalsheimProMedium'"
+      }
+    }
+  }
+}

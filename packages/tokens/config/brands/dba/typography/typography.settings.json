@@ -1,0 +1,20 @@
+{
+  "typography": {
+    "fontSrc": {
+      "value": "'./foundations/assets/dba'"
+    },
+    "defaultStack": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    },
+    "regular": {
+      "fontName": {
+        "value": "'ProximaNova-Regular'"
+      }
+    },
+    "medium": {
+      "fontName": {
+        "value": "'ProximaNova-Bold'"
+      }
+    }
+  }
+}

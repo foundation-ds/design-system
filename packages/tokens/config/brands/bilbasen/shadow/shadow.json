@@ -1,0 +1,7 @@
+{
+  "shadow": {
+      "one": {
+        "value": "inset 0 -2px 0 0 rgb(0 0 0 / 15%);"
+      }
+  }
+}

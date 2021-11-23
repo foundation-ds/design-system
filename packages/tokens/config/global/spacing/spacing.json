@@ -1,0 +1,73 @@
+{
+  "spacing": {
+    "group": {
+      "one": {
+        "value": "4",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "two": {
+        "value": "8",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "three": {
+        "value": "12",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "four": {
+        "value": "16",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "five": {
+        "value": "24",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      }
+    },
+    "related": {
+      "one": {
+        "value": "32",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "two": {
+        "value": "48",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      }
+    },
+    "distinct": {
+      "one": {
+        "value": "64",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      },
+      "two": {
+        "value": "72",
+        "attributes": {
+          "category": "size",
+          "group": "spacing"
+        }
+      }
+    }
+  }
+}

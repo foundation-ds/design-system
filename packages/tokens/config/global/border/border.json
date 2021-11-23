@@ -1,0 +1,7 @@
+{
+  "border": {
+    "radius": {
+      "value": "{spacing.group.one.value}"
+    }
+  }
+}

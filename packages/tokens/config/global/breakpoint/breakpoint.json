@@ -1,0 +1,16 @@
+{
+  "breakpoint": {
+    "minWidth": {
+      "value": "320",
+      "attributes": {
+        "category": "size"
+      }
+    },
+    "maxWidth": {
+      "value": "1440",
+      "attributes": {
+        "category": "size"
+      }
+    }
+  }
+}
