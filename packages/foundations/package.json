@@ -1,0 +1,19 @@
+{
+  "name": "@schibsted-ds/foundations",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Tom Newton <tom.newton@schibsted.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

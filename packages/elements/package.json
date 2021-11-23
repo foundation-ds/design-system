@@ -1,0 +1,11 @@
+{
+  "name": "@schibsted-ds/elements",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@schibsted-ds/foundations": "^0.0.0"
+  }
+}
