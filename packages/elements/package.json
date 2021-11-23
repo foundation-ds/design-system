@@ -6,7 +6,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@schibsted-ds/foundations": "^0.0.0",
-    "@schibsted-ds/tokens": "^0.0.0"
+    "@schibsted-ds/foundations": "^0.0.0"
   }
 }
