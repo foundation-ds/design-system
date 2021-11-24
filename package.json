@@ -8,8 +8,8 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap && lerna link",
-    "storybook": "lerna exec --scope @schibsted-ds/storybook -- yarn storybook",
-    "build-storybook": "build-storybook",
+    "start": "yarn tokens && lerna exec --scope @schibsted-ds/storybook -- yarn storybook",
+    "build-storybook": "yarn tokens && lerna exec --scope @schibsted-ds/storybook -- yarn build-storybook",
     "tokens": "lerna exec --scope @schibsted-ds/tokens -- yarn generate"
   },
   "dependencies": {
