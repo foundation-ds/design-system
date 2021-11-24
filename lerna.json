@@ -10,7 +10,6 @@
     }
   },
   "useWorkspaces": true,
-
   "packages": [
     "./packages/tokens",
     "./packages/utilities",
