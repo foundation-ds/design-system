@@ -23,5 +23,8 @@
     "./packages/tokens",
     "./packages/utilities",
     "./packages/elements"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
