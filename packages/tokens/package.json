@@ -1,6 +1,6 @@
 {
   "name": "@foundation-ds/tokens",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "generate": "node ./tokenGenerator.js && quicktype dist/web/**/**/*.json -o dist/styles.d.ts --just-types --top-level DefaultTheme"
