@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o ./docs"
+    "build-storybook": "build-storybook -o ../../docs"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
