@@ -1,12 +1,12 @@
 {
   "name": "@foundation-ds/elements",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@foundation-ds/utilities": "^1.0.1"
+    "@foundation-ds/utilities": "^1.0.2"
   },
   "gitHead": "ee18f453be7da8e87e707d45dbc8b606f031b38a"
 }
