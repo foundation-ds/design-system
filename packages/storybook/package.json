@@ -1,7 +1,6 @@
 {
   "name": "@foundation-ds/storybook",
   "version": "1.0.0-alpha.0",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "storybook": "start-storybook -p 6006",

@@ -1,6 +1,4 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/tokens", "packages/utilities", "packages/elements"],
   "version": "1.0.0-alpha.0"
 }
