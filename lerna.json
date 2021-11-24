@@ -1,4 +1,8 @@
 {
-  "packages": ["packages/tokens", "packages/utilities", "packages/elements"],
-  "version": "1.0.0-alpha.0"
+  "packages": [
+    "packages/tokens",
+    "packages/utilities",
+    "packages/elements"
+  ],
+  "version": "1.0.1-alpha.0"
 }
