@@ -5,6 +5,7 @@ import {
   dbaTheme,
   dbaDarkTheme,
 } from "@foundation-ds/utilities";
+import { GlobalFonts } from "@foundation-ds/utilities";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -67,6 +68,7 @@ const withThemeProvider = (Story, context) => {
 
   return (
     <ThemeProvider theme={globalThemes[theme]}>
+      <GlobalFonts />
       <Story {...context} />
     </ThemeProvider>
   );
