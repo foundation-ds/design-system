@@ -1,9 +1,11 @@
 {
   "name": "@foundation-ds/storybook",
+  "version": "1.0.4",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o ./docs"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -14,6 +16,7 @@
     "babel-loader": "^8.2.3"
   },
   "dependencies": {
-    "@foundation-ds/utilities": "^1.0.0-alpha.0"
+    "@foundation-ds/utilities": "^1.0.4",
+    "@storybook/addon-docs": "^6.3.12"
   }
 }
