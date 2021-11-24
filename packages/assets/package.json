@@ -1,0 +1,9 @@
+{
+  "name": "@foundation-ds/assets",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundation-ds/design-system.git"
+  }
+}
