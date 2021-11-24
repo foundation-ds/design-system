@@ -72,6 +72,42 @@
             "category": "string"
           }
         }
+      },
+      "large": {
+        "fontSize": {
+          "min": {
+            "value": "20",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "40",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "lineHeight": {
+          "min": {
+            "value": "16",
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "max": {
+            "value": "20",
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        "fontWeight": {
+          "value": "400",
+          "attributes": {
+            "category": "string"
+          }
+        }
       }
     }
   }

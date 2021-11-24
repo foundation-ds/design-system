@@ -36,6 +36,8 @@ export const fluidType = (
   const maxScreenSize = ThemeSelectors.getMaxWidth(theme);
 
   return `
+    font-size: ${calculateRem(parseInt(minFontSize))};
+
     @media screen and (min-width: ${calculateRem(parseInt(minScreenSize))}) {
       font-size: calc(${minFontSize} + (${
     parseInt(maxFontSize) - parseInt(minFontSize)
@@ -51,7 +53,7 @@ export const fluidType = (
 
 export const typography = (
   theme: DefaultTheme,
-  dec: "default" | "small" = "default"
+  dec: "default" | "small" | "large" = "default"
 ) => {
   const minFontSize = ThemeSelectors.getMinFontSize(theme, dec);
   const maxFontSize = ThemeSelectors.getMaxFontSize(theme, dec);

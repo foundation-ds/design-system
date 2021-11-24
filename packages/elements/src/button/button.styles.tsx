@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { ButtonTypes } from "./button.types";
-import { ThemeSelectors } from "@foundation-ds/utilities";
+import { ThemeSelectors, typography } from "@foundation-ds/utilities";
 
 export const Button = styled.button<ButtonTypes>`
   background-color: ${({ displayType, theme }) =>
@@ -17,4 +17,6 @@ export const Button = styled.button<ButtonTypes>`
   outline: none;
   padding: ${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}
     ${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)};
+
+  ${({ theme }) => typography(theme)};
 `;

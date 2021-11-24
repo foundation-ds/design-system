@@ -9,4 +9,4 @@ export { calculateRem } from "./src/utils/utils.converters";
 
 export { ThemeSelectors } from "./src/selectors/theme-selectors";
 
-export { GlobalFonts } from "./src/typography/typography.settings";
+export { GlobalFonts, typography } from "./src/typography/typography.settings";

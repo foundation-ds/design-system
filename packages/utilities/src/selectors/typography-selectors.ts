@@ -20,35 +20,35 @@ export const getFontMedium = (theme: DefaultTheme) => {
 
 export const getMinFontSize = (
   theme: DefaultTheme,
-  typeDeclaration: "default" | "small"
+  typeDeclaration: "default" | "small" | "large"
 ) => {
   return theme.typography.typeScale[typeDeclaration].fontSize.min;
 };
 
 export const getMaxFontSize = (
   theme: DefaultTheme,
-  typeDeclaration: "default" | "small"
+  typeDeclaration: "default" | "small" | "large"
 ) => {
   return theme.typography.typeScale[typeDeclaration].fontSize.max;
 };
 
 export const getMinLineHeight = (
   theme: DefaultTheme,
-  typeDeclaration: "default" | "small"
+  typeDeclaration: "default" | "small" | "large"
 ) => {
   return theme.typography.typeScale[typeDeclaration].lineHeight.min;
 };
 
 export const getMaxLineHeight = (
   theme: DefaultTheme,
-  typeDeclaration: "default" | "small"
+  typeDeclaration: "default" | "small" | "large"
 ) => {
   return theme.typography.typeScale[typeDeclaration].lineHeight.max;
 };
 
 export const getFontWeight = (
   theme: DefaultTheme,
-  typeDeclaration: "default" | "small"
+  typeDeclaration: "default" | "small" | "large"
 ) => {
   return theme.typography.typeScale[typeDeclaration].fontWeight;
 };
