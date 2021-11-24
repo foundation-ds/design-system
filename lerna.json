@@ -1,6 +1,19 @@
 {
+  "version": "independent",
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "access": "public"
+    },
+    "version": {
+      "message": "chore(release): publish"
+    }
+  },
+  "useWorkspaces": true,
+
   "packages": [
-    "packages/*"
-  ],
-  "version": "1.0.0"
+    "./packages/tokens",
+    "./packages/utilities",
+    "./packages/elements"
+  ]
 }
