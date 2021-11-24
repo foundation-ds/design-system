@@ -7,5 +7,6 @@
   },
   "dependencies": {
     "@foundation-ds/utilities": "^1.0.0-alpha.0"
-  }
+  },
+  "gitHead": "8571e1be1f1df4401c1b3dcda789dfc6d41c66de"
 }

@@ -9,5 +9,6 @@
     "del": "^6.0.0",
     "quicktype": "^15.0.260",
     "style-dictionary": "^3.0.3"
-  }
+  },
+  "gitHead": "8571e1be1f1df4401c1b3dcda789dfc6d41c66de"
 }
