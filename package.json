@@ -1,5 +1,5 @@
 {
-  "name": "schibsted-ds",
+  "name": "foundation-ds",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,9 +8,9 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap && lerna link",
-    "start": "yarn tokens && lerna exec --scope @schibsted-ds/storybook -- yarn storybook",
-    "build-storybook": "yarn tokens && lerna exec --scope @schibsted-ds/storybook -- yarn build-storybook",
-    "tokens": "lerna exec --scope @schibsted-ds/tokens -- yarn generate"
+    "start": "yarn tokens && lerna exec --scope @foundation-ds/storybook -- yarn storybook",
+    "build-storybook": "yarn tokens && lerna exec --scope @foundation-ds/storybook -- yarn build-storybook",
+    "tokens": "lerna exec --scope @foundation-ds/tokens -- yarn generate"
   },
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",

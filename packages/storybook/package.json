@@ -1,5 +1,5 @@
 {
-  "name": "@schibsted-ds/storybook",
+  "name": "@foundation-ds/storybook",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -16,6 +16,6 @@
     "babel-loader": "^8.2.3"
   },
   "dependencies": {
-    "@schibsted-ds/foundations": "^0.0.0"
+    "@foundation-ds/utilities": "^0.0.0"
   }
 }

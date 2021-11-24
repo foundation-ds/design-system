@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "@schibsted-ds/foundations/src/button.css";
+import "@foundation-ds/utilities/src/button.css";
 
 /**
  * Primary UI component for user interaction

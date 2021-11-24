@@ -1,8 +1,6 @@
 {
-  "name": "@schibsted-ds/tokens",
+  "name": "@foundation-ds/tokens",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Tom Newton <tom.newton@schibsted.com>",
   "scripts": {
     "generate": "node ./tokenGenerator.js && quicktype dist/web/**/**/*.json -o dist/styles.d.ts --just-types --top-level DefaultTheme"
   },

@@ -4,7 +4,7 @@ import {
   bilbasenDarkTheme,
   dbaTheme,
   dbaDarkTheme,
-} from "@schibsted-ds/foundations";
+} from "@foundation-ds/utilities";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -16,7 +16,7 @@ export const parameters = {
   },
   options: {
     storySort: {
-      order: ["Foundations", "Elements", "Patterns", "Collections", "*"],
+      order: ["utilities", "Elements", "Patterns", "Collections", "*"],
     },
   },
   backgrounds: {

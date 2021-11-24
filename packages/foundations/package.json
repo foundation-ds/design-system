@@ -1,9 +1,0 @@
-{
-  "name": "@schibsted-ds/foundations",
-  "version": "0.0.0",
-  "main": "index.ts",
-  "scripts": {},
-  "dependencies": {
-    "@schibsted-ds/tokens": "^0.0.0"
-  }
-}
