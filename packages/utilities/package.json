@@ -1,10 +1,11 @@
 {
   "name": "@foundation-ds/utilities",
   "version": "1.0.2",
+  "private": false,
   "main": "index.ts",
   "scripts": {},
   "dependencies": {
     "@foundation-ds/tokens": "^1.0.2"
   },
-  "gitHead": "ee18f453be7da8e87e707d45dbc8b606f031b38a"
+  "gitHead": "722c2a64b868cb22ca89228971cc626cf1d1ae95"
 }

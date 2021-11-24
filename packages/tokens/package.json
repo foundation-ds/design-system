@@ -1,6 +1,7 @@
 {
   "name": "@foundation-ds/tokens",
   "version": "1.0.2",
+  "private": false,
   "main": "index.ts",
   "scripts": {
     "generate": "node ./tokenGenerator.js && quicktype dist/web/**/**/*.json -o dist/styles.d.ts --just-types --top-level DefaultTheme"
@@ -10,5 +11,5 @@
     "quicktype": "^15.0.260",
     "style-dictionary": "^3.0.3"
   },
-  "gitHead": "ee18f453be7da8e87e707d45dbc8b606f031b38a"
+  "gitHead": "722c2a64b868cb22ca89228971cc626cf1d1ae95"
 }
