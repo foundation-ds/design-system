@@ -1,0 +1,10 @@
+declare module "style-dictionary";
+declare module "fs";
+declare module "path";
+declare module "util";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.gif";
+declare module "*.ttf";
+declare module "*.woff";
+declare module "*.svg";
