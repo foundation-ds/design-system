@@ -1,0 +1,10 @@
+{
+  "border": {
+    "radius": {
+      "value": "40",
+      "attributes": {
+        "category": "size"
+      }
+    }
+  }
+}

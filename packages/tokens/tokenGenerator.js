@@ -2,9 +2,25 @@ const StyleDictionaryPackage = require("style-dictionary");
 const del = require("del");
 
 const outputPath = `./dist`;
-const brands = [`bilbasen`, `dba`];
-const platforms = ["web", "ios", "android"];
 const themes = [`default`, `dark`];
+
+const brandLibrary = [
+  {
+    brand: "bilbasen",
+    platforms: ["web", "ios", "android"],
+    themes: [`default`, `dark`],
+  },
+  {
+    brand: "dba",
+    platforms: ["web", "ios", "android"],
+    themes: [`default`, `dark`],
+  },
+  {
+    brand: "schibsted",
+    platforms: ["web"],
+    themes: [`default`],
+  },
+];
 
 const routeGenerator = (theme) =>
   theme === "default" ? `!(*.${themes.join(`|*.`)})` : `*.${theme}`;
@@ -17,18 +33,14 @@ function tokenConfig(theme, brand, platform) {
     // Include will deep merge the files only overriding the theme values
 
     include: [
-      `config/brands/${brand}/**/${routeGenerator("default")}.json`,
+      `config/brands/**/${brand}/**/${routeGenerator("default")}.json`,
       `config/global/**/${routeGenerator("default")}.json`,
       `config/platforms/**/${platform}/${routeGenerator("default")}.json`,
     ],
 
-    // The source order is specific and controls the deep merge overrides. Brands > Global > Platforms.
+    // The source defines files that we want to potentially override the default values with. These will not show conflicts.
 
-    source: [
-      `config/brands/**/${brand}/**/${routeGenerator(theme)}.json`,
-      `config/global/**/${routeGenerator(theme)}.json`,
-      `config/platforms/**/${platform}/**/${routeGenerator(theme)}.json`,
-    ],
+    source: [`config/brands/**/${brand}/**/${routeGenerator(theme)}.json`],
 
     platforms: {
       // 🕸 Web
@@ -119,16 +131,16 @@ function tokenConfig(theme, brand, platform) {
 
   console.log("👷 Build started... 👷");
 
-  brands.map(function (brand) {
+  brandLibrary.map(function (item) {
     console.log("\n==============================================");
-    console.log(`\n${brand.toUpperCase()}`);
+    console.log(`\n${item.brand.toUpperCase()}`);
 
-    themes.map(function (theme) {
+    item.themes.map(function (theme) {
       console.log(`\nBuilding the ${theme.toUpperCase()} theme...`);
 
-      platforms.map(function (platform) {
+      item.platforms.map(function (platform) {
         const StyleDictionary = StyleDictionaryPackage.extend(
-          tokenConfig(theme, brand, platform)
+          tokenConfig(theme, item.brand, platform)
         );
 
         StyleDictionary.buildPlatform(platform);

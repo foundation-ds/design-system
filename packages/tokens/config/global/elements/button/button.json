@@ -1,0 +1,7 @@
+{
+  "button": {
+    "padding": {
+      "value": "{spacing.group.two.value} {spacing.group.four.value}"
+    }
+  }
+}

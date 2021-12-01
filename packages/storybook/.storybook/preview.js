@@ -4,6 +4,7 @@ import {
   bilbasenDarkTheme,
   dbaTheme,
   dbaDarkTheme,
+  schibstedTheme,
 } from "@foundation-ds/utilities";
 import { GlobalFonts } from "@foundation-ds/utilities";
 
@@ -35,7 +36,7 @@ export const globalTypes = {
     toolbar: {
       icon: "globe",
       // Array of plain string values or MenuItem shape (see below)
-      items: ["Bilbasen", "DBA"],
+      items: ["Bilbasen", "DBA", "Schibsted"],
       // Property that specifies if the name of the item will be displayed
       showName: true,
     },
@@ -59,6 +60,7 @@ const globalThemes = {
   BilbasenDarkTheme: bilbasenDarkTheme,
   DBATheme: dbaTheme,
   DBADarkTheme: dbaDarkTheme,
+  SchibstedTheme: schibstedTheme,
 };
 
 const withThemeProvider = (Story, context) => {

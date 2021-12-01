@@ -8,8 +8,12 @@ import { calculateRem } from "../utils/utils.converters";
 import { DefaultTheme } from "@foundation-ds/tokens";
 
 export const GlobalFonts = createGlobalStyle`
+    ${({ theme }) => ThemeSelectors.getFontSrc(theme)}
+
     body {
-      font-family: ${({ theme }) => ThemeSelectors.getFontRegular(theme)};
+      font-family: ${({ theme }) => ThemeSelectors.getFontRegular(theme)} ${({
+  theme,
+}) => ThemeSelectors.getDefaultStack(theme)};
     }
 `;
 

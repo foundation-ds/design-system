@@ -3,6 +3,7 @@ export {
   bilbasenDarkTheme,
   dbaTheme,
   dbaDarkTheme,
+  schibstedTheme,
 } from "./src/themeCatalogue";
 
 export { calculateRem } from "./src/utils/utils.converters";
